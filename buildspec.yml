@@ -1,0 +1,15 @@
+version: 0.1
+phases:
+  pre_build:
+    commands:
+      - echo Entered the pre_build phase...
+      - echo Pre_build started on `date`
+      - composer install
+  finally:
+      - echo This always runs even if the login command fails 
+  build:
+    commands:
+      - echo Entered the build phase...
+      - echo Build started on `date`
+  finally:
+      - echo This always runs even if the install command fails
