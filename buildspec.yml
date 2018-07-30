@@ -8,3 +8,9 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
+artifacts:
+  files:
+    - '**/*'
+  ## If you want to flaten the output (https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)
+  #base-directory: 'my-build*'
+  #discard-paths: yes
