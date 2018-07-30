@@ -3,7 +3,7 @@ phases:
   pre_build:
     commands:
       - echo Entered the pre_build phase...
-	  - composer install
+	    - composer install
 	finally:
       - echo This always runs even if the login command fails 
   build:
