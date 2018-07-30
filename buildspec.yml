@@ -4,19 +4,7 @@ phases:
     commands:
       - echo Entered the pre_build phase...
       - echo Pre_build started on `date`
-<<<<<<< HEAD
   build:
     commands:
       - echo Entered the build phase...
       - echo Build started on `date`
-=======
-      - composer install
-  finally:
-      - echo This always runs even if the login command fails 
-  build:
-    commands:
-      - echo Entered the build phase...
-      - echo Build started on `date`
-  finally:
-      - echo This always runs even if the install command fails
->>>>>>> 01bb2d94ba6e35b07de1683ada8fa182bfc283f7
