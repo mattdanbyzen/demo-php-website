@@ -7,10 +7,8 @@ https://github.com/banago/simple-php-website
 ## Update trail
 
 Test 01
-<<<<<<< HEAD
 Test 02
-=======
->>>>>>> 01bb2d94ba6e35b07de1683ada8fa182bfc283f7
+Test 03
 
 
 ## Original
