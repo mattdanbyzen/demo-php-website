@@ -5,7 +5,7 @@ files:
     destination: /var/www/html
 hooks:
   ApplicationStart:
-    - location: deploy-scripts/start.sh
+    - location: ./deploy-scripts/start.sh
   ValidateService:
-    - location: deploy-scripts/verify.sh
+    - location: ./deploy-scripts/verify.sh
       timeout: 1000
