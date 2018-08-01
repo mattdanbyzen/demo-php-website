@@ -8,4 +8,4 @@ hooks:
     - location: ./deploy-scripts/start.sh
   ValidateService:
     - location: ./deploy-scripts/verify.sh
-      timeout: 1000
+      timeout: 120
