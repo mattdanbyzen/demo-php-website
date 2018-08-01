@@ -1,5 +1,11 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /var/www/html/
+  - source: /html
+    destination: /var/www/html
+hooks:
+  ApplicationStart:
+    - location: /deploy-scripts/start.sh
+  ValidateService:
+    - location: /deploy-scripts/verify.sh
+      timeout: 1000
