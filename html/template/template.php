@@ -8,7 +8,7 @@
         article { text-align: left; padding: 40px; line-height: 150%; }
     </style>
 </head>
-<body>
+<body bgcolor="#66ff66">
 <div class="wrap">
 
     <header>
