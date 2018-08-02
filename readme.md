@@ -6,14 +6,7 @@ https://github.com/banago/simple-php-website
 
 ## Update trail
 
-Test 01
-Test 02
-Test 03
-Test 04
-Test 05
-Test 06
-Test 07
-Test 08
+Test New
 
 ## Original
 
