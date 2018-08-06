@@ -23,7 +23,7 @@
         <?php pageContent(); ?>
     </article>
 
-    <footer><small>&copy;<?php echo date('Y'); ?> <?php siteName(); ?>.<br><?php siteVersion(); ?></small></footer>
+    <footer><small>&copy;<?php date_default_timezone_set('Europe/London'); echo date('Y'); ?> <?php siteName(); ?>.<br><?php siteVersion(); ?></small></footer>
 
 </div>
 </body>
