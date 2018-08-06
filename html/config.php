@@ -15,9 +15,9 @@ function config($key = '')
             'products' => 'Products',
             'contact' => 'Contact',
         ],
-        'template_path' => 'community/template',
-        'content_path' => 'community/content',
-        'pretty_uri' => true,
+        'template_path' => 'template',
+        'content_path' => 'content',
+        'pretty_uri' => false,
         'version' => 'v2.0',
     ];
 
