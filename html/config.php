@@ -12,7 +12,7 @@ function config($key = '')
         'nav_menu' => [
             '' => 'Home',
             'about-us' => 'About Us',
-            'products' => 'Products',
+            'community/products' => 'Products',
             'contact' => 'Contact',
         ],
         'template_path' => 'template',
